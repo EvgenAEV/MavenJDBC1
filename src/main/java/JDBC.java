@@ -1,4 +1,4 @@
-import com.mysql.cj.jdbc.Driver;
+
 
 import java.sql.*;
 
@@ -11,7 +11,7 @@ public class JDBC {
     public static void main(String[] args) {
         try {
             Class.forName(DRIVER);
-            System.out.println("show");
+            System.out.println("Show");
 
             Connection connection = DriverManager.getConnection(USERNAME, PASSWORD, URL);
             Statement statement = connection.createStatement();
