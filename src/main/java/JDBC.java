@@ -23,7 +23,7 @@ public class JDBC {
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
-            System.out.println("F...k");
+            System.out.println("No connection");
         }
     }
 
