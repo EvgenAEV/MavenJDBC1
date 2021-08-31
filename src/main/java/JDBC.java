@@ -1,5 +1,3 @@
-
-
 import java.sql.*;
 
 public class JDBC {
@@ -21,7 +19,7 @@ public class JDBC {
                 }
                 resultSet.close();
                 statement.close();
-                connection.close();
+
             }
         } catch (SQLException e) {
             System.out.println("НЕ работает");
